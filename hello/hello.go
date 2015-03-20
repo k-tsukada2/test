@@ -12,3 +12,5 @@ func init() {
 func handler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "Hello, world!<br />Go script is written in utf8.<br />อักษรไทย対応")
 }
+
+// comment
