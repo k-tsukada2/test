@@ -1,0 +1,3 @@
+[submodule "src/go-diff"]
+	path = src/go-diff
+	url = https://github.com/sergi/go-diff
