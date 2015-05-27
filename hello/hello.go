@@ -11,9 +11,9 @@ func init() {
 }
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Hello, world!")
-	fmt.Fprintln(w, "recently deployed at 2015-05-27 circle ci")
-	fmt.Fprintln(w, "using submodule go-diff below\n")
+	fmt.Fprintln(w, "Hello, world!<br />")
+	fmt.Fprintln(w, "recently deployed at 2015-05-27 circle ci<br />")
+	fmt.Fprintln(w, "using submodule go-diff below<br /><br />")
 
 	dmp := diffmatchpatch.New()
 	a, b, c := dmp.DiffLinesToChars("string before", "string after")
